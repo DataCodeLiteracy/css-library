@@ -1,8 +1,8 @@
-import React from 'react'
+import { DescriptionWrap } from './styles/DescriptionStyles'
 
 const Description = () => {
   return (
-    <div>
+    <DescriptionWrap>
       <h1>패밀리 옷 세트 구성</h1>
       <p>
         A foreboding archway leads outside. Heavy rains descend upon the earth.
@@ -24,7 +24,7 @@ const Description = () => {
       <div>
         <h3>Rainfall Artwork Tee</h3>
       </div>
-    </div>
+    </DescriptionWrap>
   )
 }
 

@@ -1,25 +1,25 @@
-import React from 'react'
+import { OptionWrap, OptionItem, Button } from './styles/OptionStyles'
 
 const Option = () => {
   return (
-    <div>
+    <OptionWrap>
       <h1>2,000</h1>
-      <div>
+      <OptionItem>
         <span>평점</span>
         <span>...........</span>
-      </div>
-      <div>
+      </OptionItem>
+      <OptionItem>
         <div>color</div>
         <div>칼라 이미지</div>
-      </div>
-      <div>
+      </OptionItem>
+      <OptionItem>
         <div>
           <div>Size</div>
           <div>...</div>
         </div>
-      </div>
-      <button>Add to buy</button>
-    </div>
+      </OptionItem>
+      <Button>Add to buy</Button>
+    </OptionWrap>
   )
 }
 
